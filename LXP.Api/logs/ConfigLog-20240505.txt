@@ -1,0 +1,175 @@
+2024-05-05 22:45:00.514 +05:30 [INF] Now listening on: https://localhost:7005
+2024-05-05 22:45:00.567 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-05 22:45:00.576 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-05 22:45:00.584 +05:30 [INF] Hosting environment: Development
+2024-05-05 22:45:00.588 +05:30 [INF] Content root path: D:\Layer_Architecture\LayerArchitecture_Template\LXP\LXP.Api
+2024-05-05 22:45:04.967 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2024-05-05 22:45:05.621 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 665.741ms
+2024-05-05 22:45:05.657 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-05 22:45:05.657 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2024-05-05 22:45:05.668 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 11.8129ms
+2024-05-05 22:45:05.725 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.1049ms
+2024-05-05 22:45:05.768 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2024-05-05 22:45:05.928 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 160.6675ms
+2024-05-05 22:45:10.793 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Values/getMovie - null null
+2024-05-05 22:45:10.827 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetails (LXP.Api)'
+2024-05-05 22:45:10.857 +05:30 [INF] Route matched with {action = "GetMoviedetails", controller = "Values"}. Executing controller action with signature System.Collections.Generic.List`1[LXP.Common.ViewModels.MoviedetailModel] GetMoviedetails() on controller LXP.Api.Controllers.ValuesController (LXP.Api).
+2024-05-05 22:45:13.163 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LXP.Common.ViewModels.MoviedetailModel, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-05 22:45:13.188 +05:30 [INF] Executed action LXP.Api.Controllers.ValuesController.GetMoviedetails (LXP.Api) in 2314.8352ms
+2024-05-05 22:45:13.198 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetails (LXP.Api)'
+2024-05-05 22:45:13.209 +05:30 [INF] HTTP GET /api/Values/getMovie responded 200 in 2387.3235 ms
+2024-05-05 22:45:13.226 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Values/getMovie - 200 null application/json; charset=utf-8 2434.0553ms
+2024-05-05 22:46:29.457 +05:30 [INF] Now listening on: https://localhost:7005
+2024-05-05 22:46:29.494 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-05 22:46:29.498 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-05 22:46:29.499 +05:30 [INF] Hosting environment: Development
+2024-05-05 22:46:29.501 +05:30 [INF] Content root path: D:\Layer_Architecture\LayerArchitecture_Template\LXP\LXP.Api
+2024-05-05 22:46:33.559 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2024-05-05 22:46:34.240 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 689.2721ms
+2024-05-05 22:46:34.250 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-05 22:46:34.267 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 18.4333ms
+2024-05-05 22:46:34.274 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2024-05-05 22:46:34.354 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.0244ms
+2024-05-05 22:46:34.403 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2024-05-05 22:46:34.559 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 156.4792ms
+2024-05-05 22:46:44.221 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Values/getMoviebyid?id=1 - null null
+2024-05-05 22:46:44.248 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetailbyid (LXP.Api)'
+2024-05-05 22:46:44.289 +05:30 [INF] Route matched with {action = "GetMoviedetailbyid", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[LXP.Common.ViewModels.MoviedetailModel] GetMoviedetailbyid(Int32) on controller LXP.Api.Controllers.ValuesController (LXP.Api).
+2024-05-05 22:46:47.052 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.MoviedetailModel'.
+2024-05-05 22:46:47.081 +05:30 [INF] Executed action LXP.Api.Controllers.ValuesController.GetMoviedetailbyid (LXP.Api) in 2776.277ms
+2024-05-05 22:46:47.091 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetailbyid (LXP.Api)'
+2024-05-05 22:46:47.105 +05:30 [INF] HTTP GET /api/Values/getMoviebyid responded 200 in 2857.2887 ms
+2024-05-05 22:46:47.119 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Values/getMoviebyid?id=1 - 200 null application/json; charset=utf-8 2897.8616ms
+2024-05-05 22:56:57.002 +05:30 [INF] Now listening on: https://localhost:7005
+2024-05-05 22:56:57.036 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-05 22:56:57.041 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-05 22:56:57.042 +05:30 [INF] Hosting environment: Development
+2024-05-05 22:56:57.042 +05:30 [INF] Content root path: D:\Layer_Architecture\LayerArchitecture_Template\LXP\LXP.Api
+2024-05-05 22:57:00.855 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2024-05-05 22:57:01.536 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 687.9204ms
+2024-05-05 22:57:01.599 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-05 22:57:01.599 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2024-05-05 22:57:01.621 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 22.0391ms
+2024-05-05 22:57:01.683 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.0424ms
+2024-05-05 22:57:01.725 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2024-05-05 22:57:01.879 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 155.1218ms
+2024-05-05 22:57:06.689 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Values/getMovie - null null
+2024-05-05 22:57:06.723 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetails (LXP.Api)'
+2024-05-05 22:57:06.794 +05:30 [INF] Route matched with {action = "GetMoviedetails", controller = "Values"}. Executing controller action with signature System.Collections.Generic.List`1[LXP.Common.ViewModels.MoviedetailModel] GetMoviedetails() on controller LXP.Api.Controllers.ValuesController (LXP.Api).
+2024-05-05 22:57:06.817 +05:30 [INF] Executed action LXP.Api.Controllers.ValuesController.GetMoviedetails (LXP.Api) in 4.0384ms
+2024-05-05 22:57:06.821 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetails (LXP.Api)'
+2024-05-05 22:57:06.829 +05:30 [ERR] HTTP GET /api/Values/getMovie responded 500 in 111.1360 ms
+System.InvalidOperationException: Unable to resolve service for type 'LXP.Core.IServices.IServices' while attempting to activate 'LXP.Api.Controllers.ValuesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-05-05 22:57:06.903 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'LXP.Core.IServices.IServices' while attempting to activate 'LXP.Api.Controllers.ValuesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-05 22:57:06.933 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Values/getMovie - 500 null text/plain; charset=utf-8 245.0302ms
+2024-05-05 22:57:51.624 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Values/getMoviebyid?id=1 - null null
+2024-05-05 22:57:51.643 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetailbyid (LXP.Api)'
+2024-05-05 22:57:51.661 +05:30 [INF] Route matched with {action = "GetMoviedetailbyid", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[LXP.Common.ViewModels.MoviedetailModel] GetMoviedetailbyid(Int32) on controller LXP.Api.Controllers.ValuesController (LXP.Api).
+2024-05-05 22:57:51.667 +05:30 [INF] Executed action LXP.Api.Controllers.ValuesController.GetMoviedetailbyid (LXP.Api) in 1.8306ms
+2024-05-05 22:57:51.671 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetailbyid (LXP.Api)'
+2024-05-05 22:57:51.673 +05:30 [ERR] HTTP GET /api/Values/getMoviebyid responded 500 in 30.5011 ms
+System.InvalidOperationException: Unable to resolve service for type 'LXP.Core.IServices.IServices' while attempting to activate 'LXP.Api.Controllers.ValuesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method5(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-05-05 22:57:51.683 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'LXP.Core.IServices.IServices' while attempting to activate 'LXP.Api.Controllers.ValuesController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method5(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-05 22:57:51.692 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Values/getMoviebyid?id=1 - 500 null text/plain; charset=utf-8 68.7302ms
+2024-05-05 23:00:26.637 +05:30 [INF] Now listening on: https://localhost:7005
+2024-05-05 23:00:26.697 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-05 23:00:26.702 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-05 23:00:26.705 +05:30 [INF] Hosting environment: Development
+2024-05-05 23:00:26.705 +05:30 [INF] Content root path: D:\Layer_Architecture\LayerArchitecture_Template\LXP\LXP.Api
+2024-05-05 23:00:27.884 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2024-05-05 23:00:28.534 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 653.4458ms
+2024-05-05 23:00:28.581 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-05 23:00:28.581 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2024-05-05 23:00:28.591 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 11.1529ms
+2024-05-05 23:00:28.660 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.2389ms
+2024-05-05 23:00:28.713 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2024-05-05 23:00:28.856 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 144.4747ms
+2024-05-05 23:00:33.312 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Values/getMovie - null null
+2024-05-05 23:00:33.342 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetails (LXP.Api)'
+2024-05-05 23:00:33.372 +05:30 [INF] Route matched with {action = "GetMoviedetails", controller = "Values"}. Executing controller action with signature System.Collections.Generic.List`1[LXP.Common.ViewModels.MoviedetailModel] GetMoviedetails() on controller LXP.Api.Controllers.ValuesController (LXP.Api).
+2024-05-05 23:00:35.709 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LXP.Common.ViewModels.MoviedetailModel, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-05 23:00:35.728 +05:30 [INF] Executed action LXP.Api.Controllers.ValuesController.GetMoviedetails (LXP.Api) in 2338.192ms
+2024-05-05 23:00:35.732 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetails (LXP.Api)'
+2024-05-05 23:00:35.736 +05:30 [INF] HTTP GET /api/Values/getMovie responded 200 in 2398.1459 ms
+2024-05-05 23:00:35.739 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Values/getMovie - 200 null application/json; charset=utf-8 2428.4721ms
+2024-05-05 23:00:46.193 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Values/getMoviebyid?id=1 - null null
+2024-05-05 23:00:46.203 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetailbyid (LXP.Api)'
+2024-05-05 23:00:46.223 +05:30 [INF] Route matched with {action = "GetMoviedetailbyid", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[LXP.Common.ViewModels.MoviedetailModel] GetMoviedetailbyid(Int32) on controller LXP.Api.Controllers.ValuesController (LXP.Api).
+2024-05-05 23:00:46.580 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.MoviedetailModel'.
+2024-05-05 23:00:46.589 +05:30 [INF] Executed action LXP.Api.Controllers.ValuesController.GetMoviedetailbyid (LXP.Api) in 352.2373ms
+2024-05-05 23:00:46.597 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetailbyid (LXP.Api)'
+2024-05-05 23:00:46.607 +05:30 [INF] HTTP GET /api/Values/getMoviebyid responded 200 in 403.7153 ms
+2024-05-05 23:00:46.622 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Values/getMoviebyid?id=1 - 200 null application/json; charset=utf-8 429.5073ms
+2024-05-05 23:00:57.045 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/Values/PostMovie - application/json 22
+2024-05-05 23:00:57.052 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ValuesController.CreateMovie (LXP.Api)'
+2024-05-05 23:00:57.057 +05:30 [INF] Route matched with {action = "CreateMovie", controller = "Values"}. Executing controller action with signature Void CreateMovie(LXP.Common.ViewModels.MoviedetailModel) on controller LXP.Api.Controllers.ValuesController (LXP.Api).
+2024-05-05 23:00:57.433 +05:30 [INF] Executed action LXP.Api.Controllers.ValuesController.CreateMovie (LXP.Api) in 367.5528ms
+2024-05-05 23:00:57.440 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ValuesController.CreateMovie (LXP.Api)'
+2024-05-05 23:00:57.441 +05:30 [INF] HTTP POST /api/Values/PostMovie responded 200 in 389.8272 ms
+2024-05-05 23:00:57.443 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/Values/PostMovie - 200 0 null 399.2154ms
+2024-05-05 23:01:02.324 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Values/getMovie - null null
+2024-05-05 23:01:02.340 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetails (LXP.Api)'
+2024-05-05 23:01:02.346 +05:30 [INF] Route matched with {action = "GetMoviedetails", controller = "Values"}. Executing controller action with signature System.Collections.Generic.List`1[LXP.Common.ViewModels.MoviedetailModel] GetMoviedetails() on controller LXP.Api.Controllers.ValuesController (LXP.Api).
+2024-05-05 23:01:02.376 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[LXP.Common.ViewModels.MoviedetailModel, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-05 23:01:02.387 +05:30 [INF] Executed action LXP.Api.Controllers.ValuesController.GetMoviedetails (LXP.Api) in 23.0679ms
+2024-05-05 23:01:02.395 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ValuesController.GetMoviedetails (LXP.Api)'
+2024-05-05 23:01:02.401 +05:30 [INF] HTTP GET /api/Values/getMovie responded 200 in 61.1398 ms
+2024-05-05 23:01:02.414 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Values/getMovie - 200 null application/json; charset=utf-8 92.0349ms
